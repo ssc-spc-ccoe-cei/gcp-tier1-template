@@ -13,7 +13,7 @@ data:
   id: id1
   ## Folder: 'csync' or 'tier1' or 'tier2'
   ## 'tier3' or 'tier4' are used only with RepoSync
-  folder: folder1
+  folder: tier1
 
   # Git repo values
   repo-url: https://AZDO-ORG@dev.azure.com/AZDO-ORG/AZDO-PROJECT/_git/REPO-NAME
