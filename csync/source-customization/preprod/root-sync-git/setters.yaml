@@ -10,7 +10,7 @@ data:
   ### tier1: 'experimentation' or 'env'
 	### tier2: [client-name]
 	### tier34: [project-id] (we replace environment code with “x”)
-  id: id1
+  id: env
   ## Folder: 'csync' or 'tier1' or 'tier2'
   ## 'tier3' or 'tier4' are used only with RepoSync
   folder: tier1
@@ -19,4 +19,4 @@ data:
   repo-url: https://AZDO-ORG@dev.azure.com/AZDO-ORG/AZDO-PROJECT/_git/REPO-NAME
   # repo-url: https://github.com/GITHUB-ORG/REPO-NAME # Alternate, GitHub
   repo-branch: main
-  repo-dir: tier1/deploy/env
+  repo-dir: tier1/deploy/preprod
