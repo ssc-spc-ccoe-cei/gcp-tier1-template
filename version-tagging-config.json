@@ -1,10 +1,30 @@
 {
   "packages": {
     "//comment":  "this level represents the folders for which you want to have tags created",
-    "tier1": {
+    "tier1/deploy/dev/opa": {
       "//comment1":  "package-name represents the first part of the tag",
-      "package-name": "tier1",
+      "package-name": "tier1-dev-opa",
       "//comment2":  "tag-separator represents the middle part of the tag. The semVer will be added right after it.",
+      "tag-separator": "-"
+    },
+    "tier1/deploy/preprod/opa": {
+      "package-name": "tier1-preprod-opa",
+      "tag-separator": "-"
+    },
+    "tier1/deploy/prod/opa": {
+      "package-name": "tier1-prod-opa",
+      "tag-separator": "-"
+    },
+    "tier1/deploy/dev/kcc": {
+      "package-name": "tier1-dev-kcc",
+      "tag-separator": "-"
+    },
+    "tier1/deploy/preprod/kcc": {
+      "package-name": "tier1-preprod-kcc",
+      "tag-separator": "-"
+    },
+    "tier1/deploy/prod/kcc": {
+      "package-name": "tier1-prod-kcc",
       "tag-separator": "-"
     }
   }
